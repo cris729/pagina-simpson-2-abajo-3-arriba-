@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+
+}
+.modeloCaja{
+    height: 350px;
+    width: 350px;
+    margin: 200px;
+    background-color: yellow;
+    background-image: url(imagenes/casa\ simpson);
+    padding:80px ;
+    border: solid 5px orange;
+
+}
+      .modeloCaja {
+        padding: 10px;
+        text-align: center;
+      }
+      .modeloCaja img {
+        width: 80%;
+        height: auto;
+        max-height: 400px;
+        object-fit: scale-down;
+      }
+
+
+    body {
+      font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .modeloCaja {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 20px; /* Agrega margen para separar las imágenes */
+      text-align: center;
+  }
+  
+  .modeloCaja img {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  
+  .container {
+      padding-bottom: 60px; /* Para evitar que el contenido del pie de página se superponga */
+  }
